@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    padding: 1%;
+    justify-content: space-between;
+    background: aqua;
+}
+nav h1{
+    padding: 2%;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a{ 
+    list-style: none;
+    margin: 20px;
+    color: #000;
+}
+nav ul li a:hover{
+    color: #000;
+}
+nav span{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    color: gray;
+}
+nav p{
+    font-size: 15px;
+}
+nav i{
+    margin: 15px;
+    align-items: center;
+}
+nav input{
+    width: 500px;
+    border-radius: 30px;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+#banner .promo-title span{
+    color: aqua;
+}
+#banner .promo-title{
+    font-size: 45px;
+    font-weight: bold;
+    margin: 120px;
+    margin-bottom: -40px;
+}
+#banner h3{
+    font-size: 25px;
+    color: lightblue;
+    padding: 8%;
+}
+
+#banner ul{
+    display: flex;
+    padding: 6%;
+    margin-top: -200px;
+    align-items: center;
+}
+#banner ul li{
+    list-style: none;
+    margin: 20px;
+    color: #000;
+}
+#banner i{
+    margin: 15px;
+    align-items: center;
+}
+#banner .border{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border: 0;
+    background: #F3F3AC;
+    border-radius: 20px;
+    width: 300px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    margin: 120px;
+    margin-top: -15px;
+}
+#banner .border i{
+    padding-left: 190px;
+}
+#banner .ul li{
+    font-size: 15px;
+}
+#banner .ul li span{
+    font-size: 30px;
+    font-weight: bold;
+    color: #0E0E79;
+}
+#banner .img{
+    padding-left: 800px;
+    margin-top: -800px;
+}
+#banner .img img{
+    width: 100%;
+}
+#banner .boxes ul{
+    justify-content: space-around;
+    text-align: left;
+    align-items: center;
+    display: flex;
+}
+#banner .boxes ul li img{
+    width: 150px;
+}
+#banner .boxes ul li #payments{
+    font-size: 30px;
+    font-weight: bold;
+}
+#banner .boxes ul li #transfers{
+    font-size: 30px;
+    font-weight: bold;
+}
+#banner .boxes ul li #history{
+    font-size: 30px;
+    font-weight: bold;
+}
+#banner .boxes ul li #dollar1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E79;
+}
+#banner .boxes ul li #dollar2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E79;
+}
+#banner .boxes ul li #dollar3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E79;
+}
+#banner .border2{
+    border: 1px solid lightgray;
+}
